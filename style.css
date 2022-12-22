@@ -1,0 +1,215 @@
+body {
+    font-family: "Montserrat";
+}
+
+#head {
+    background-color: #ff4c68;
+    color: white;
+    padding-top: 3%;        
+}
+
+.container-fluid {
+    padding: 10%;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+
+
+/*Navbar*/
+.navbar {
+    background-color: #ff4c68;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    opacity: 0.9;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+}
+
+.nav-item {
+    padding: 0 10px;
+    transition: 0.3s;
+}
+
+
+/*Download Buttons*/
+
+.download-button {
+    margin: 25px;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin: 75px;
+}
+
+
+/*Features*/
+
+#features {
+    padding: 10%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+
+
+/*Comments*/
+
+#comments {
+    padding: 10%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.dog-img {
+    width: 30%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#comments h2 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+
+/* Press */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 10%;
+}
+
+.press-logo {
+    width: 20%;
+    margin: 10px;
+}
+
+
+
+/*Pricing*/
+
+#pricing {
+    padding: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.card-group {
+    margin-top: 100px;
+}
+
+
+#pricing button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Links */
+#links {
+    padding: 100px;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#links h3 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+
+/* Footer */
+#footer {
+    padding: 100px;
+    background-color: white;
+    text-align: center;
+    color: black;
+
+}
+
+
+#footer p {
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    margin: 10px;
+}
+
+
+
+@media (max-width: 1028px) {
+    #head {
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .title-image {
+        display: none;
+    }
+
+    #features {
+        padding: 10%;
+        background-color: white;
+        position: relative;
+        z-index: 1;
+    }
+}
