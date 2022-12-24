@@ -7,4 +7,4 @@
 
 
 
-#### Live Demo: https://emintatar.github.io/tindog/
+Demo: https://emintatar.github.io/Tindog-Website/
